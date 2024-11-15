@@ -2,6 +2,51 @@
 Changelog for package gazebo_ros2_control_demos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.10 (2024-09-17)
+-------------------
+* Add support for getting PID parameters from loaded parameters (`#374 <https://github.com/ros-controls/gazebo_ros2_control//issues/374>`_) (`#375 <https://github.com/ros-controls/gazebo_ros2_control//issues/375>`_)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  (cherry picked from commit 6a4cc84344ed1a86807dc77f23f199598a205296)
+  Co-authored-by: Sai Kishor Kothakota <saisastra3@gmail.com>
+* Add missing dependency (`#350 <https://github.com/ros-controls/gazebo_ros2_control//issues/350>`_) (`#351 <https://github.com/ros-controls/gazebo_ros2_control//issues/351>`_)
+  (cherry picked from commit 06da0b04fefc0fa8f0bb8d4f57425d0abb261654)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Contributors: mergify[bot]
+
+0.4.9 (2024-07-02)
+------------------
+
+0.4.8 (2024-05-14)
+------------------
+* Change initial pose of pendulum (`#313 <https://github.com/ros-controls/gazebo_ros2_control//issues/313>`_) (`#315 <https://github.com/ros-controls/gazebo_ros2_control//issues/315>`_)
+  (cherry picked from commit 40ee42da16af9f1bc78886dbaec8082fd3fdea26)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Add PID controller to control joint using effort (`#294 <https://github.com/ros-controls/gazebo_ros2_control//issues/294>`_)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Add an example with a passive joint (backport `#172 <https://github.com/ros-controls/gazebo_ros2_control//issues/172>`_) (`#306 <https://github.com/ros-controls/gazebo_ros2_control//issues/306>`_)
+  * Add an example with a passive joint (`#172 <https://github.com/ros-controls/gazebo_ros2_control//issues/172>`_)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  (cherry picked from commit 7d5ec5dbad710d628bc14a82195c196f088621b8)
+  # Conflicts:
+  #	doc/index.rst
+  * Fixed docs
+  ---------
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+* Contributors: chameau5050, mergify[bot]
+
+0.4.7 (2024-03-21)
+------------------
+* Cleanup of demos (`#290 <https://github.com/ros-controls/gazebo_ros2_control/issues/290>`_) (`#292 <https://github.com/ros-controls/gazebo_ros2_control/issues/292>`_)
+  (cherry picked from commit 03b853b5337f6b8e9b8d4c0c8a3d814d7f34a97c)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Contributors: mergify[bot]
+
+0.4.6 (2024-01-24)
+------------------
+
 0.4.5 (2024-01-04)
 ------------------
 * Rename cartpole (`#252 <https://github.com/ros-controls/gazebo_ros2_control/issues/252>`_) (`#254 <https://github.com/ros-controls/gazebo_ros2_control/issues/254>`_)

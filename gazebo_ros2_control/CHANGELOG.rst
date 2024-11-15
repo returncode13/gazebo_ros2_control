@@ -2,6 +2,64 @@
 Changelog for package gazebo_ros2_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.10 (2024-09-17)
+-------------------
+* Add support for getting PID parameters from loaded parameters (`#374 <https://github.com/ros-controls/gazebo_ros2_control//issues/374>`_) (`#375 <https://github.com/ros-controls/gazebo_ros2_control//issues/375>`_)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  (cherry picked from commit 6a4cc84344ed1a86807dc77f23f199598a205296)
+  Co-authored-by: Sai Kishor Kothakota <saisastra3@gmail.com>
+* Add `hold_joints` parameter (backport `#251 <https://github.com/ros-controls/gazebo_ros2_control//issues/251>`_) (`#353 <https://github.com/ros-controls/gazebo_ros2_control//issues/353>`_)
+  Co-authored-by: Christoph Froehlich <christoph.froehlich@ait.ac.at>
+* Contributors: mergify[bot]
+
+0.4.9 (2024-07-02)
+------------------
+* Initialize antiwindup variable properly (`#326 <https://github.com/ros-controls/gazebo_ros2_control/issues/326>`_) (`#327 <https://github.com/ros-controls/gazebo_ros2_control/issues/327>`_)
+  (cherry picked from commit 1ef9652ac34ed883dbf8fed27bcf393f78f53d52)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Contributors: mergify[bot]
+
+0.4.8 (2024-05-14)
+------------------
+* Add PID controller to control joint using effort (`#294 <https://github.com/ros-controls/gazebo_ros2_control//issues/294>`_)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Update precommit config (`#298 <https://github.com/ros-controls/gazebo_ros2_control//issues/298>`_) (`#301 <https://github.com/ros-controls/gazebo_ros2_control//issues/301>`_)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  (cherry picked from commit 105c0ba5b786a43e1e9266399ab027a12011c643)
+  Co-authored-by: Christoph Fröhlich <christophfroehlich@users.noreply.github.com>
+* Fix incorrect force-torque sensor vec population (`#296 <https://github.com/ros-controls/gazebo_ros2_control//issues/296>`_) (`#299 <https://github.com/ros-controls/gazebo_ros2_control//issues/299>`_)
+  (cherry picked from commit fdcd7aa8c67ea57f44bbf2f8fba90a28d7f04b5d)
+  Co-authored-by: Mateus Menezes <mateusmenezes95@gmail.com>
+* Contributors: chameau5050, mergify[bot]
+
+0.4.7 (2024-03-21)
+------------------
+* Update gazebo_ros2_control_plugin.cpp (`#286 <https://github.com/ros-controls/gazebo_ros2_control/issues/286>`_) (`#287 <https://github.com/ros-controls/gazebo_ros2_control/issues/287>`_)
+  (cherry picked from commit 5e1f9a52bcd1bf4164186dbb3c8b5cf070ed156e)
+  Co-authored-by: Tobias Fischer <info@tobiasfischer.info>
+* set the robot description parameter (`#277 <https://github.com/ros-controls/gazebo_ros2_control/issues/277>`_)
+* Fix crashing due to an invalid parameter in the initial value. (backport `#271 <https://github.com/ros-controls/gazebo_ros2_control/issues/271>`_) (`#282 <https://github.com/ros-controls/gazebo_ros2_control/issues/282>`_)
+  * Fix crashing due to an invalid parameter in the initial value. (`#271 <https://github.com/ros-controls/gazebo_ros2_control/issues/271>`_)
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+  (cherry picked from commit cdae6b8a8f638d87146482e99bf76cf36530e5a6)
+  Co-authored-by: Wiktor Bajor <69388767+Wiktor-99@users.noreply.github.com>
+  Co-authored-by: Alejandro Hernandez Cordero <ahcorde@gmail.com>
+* Contributors: AB, mergify[bot]
+
+0.4.6 (2024-01-24)
+------------------
+* Load the URDF to the resource_manager before parsing it to CM  (`#262 <https://github.com/ros-controls/gazebo_ros2_control//issues/262>`_) (`#266 <https://github.com/ros-controls/gazebo_ros2_control//issues/266>`_)
+  * Load the URDF to the resource_manager before parsing it to CM constructor (fixes https://github.com/ros-controls/ros2_control/issues/1299)
+  (cherry picked from commit f5baf71c4c7cb3c0a0af52f988c107b356c95ed0)
+  Co-authored-by: Sai Kishor Kothakota <saisastra3@gmail.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+* Fix links in documentation (`#263 <https://github.com/ros-controls/gazebo_ros2_control//issues/263>`_) (`#264 <https://github.com/ros-controls/gazebo_ros2_control//issues/264>`_)
+  (cherry picked from commit d44b879615a539fc7c6c53707ec518df7bfd4f47)
+  Co-authored-by: Silvio Traversaro <silvio@traversaro.it>
+* Contributors: mergify[bot]
+
 0.4.5 (2024-01-04)
 ------------------
 * Fix stuck passive joints (`#237 <https://github.com/ros-controls/gazebo_ros2_control/issues/237>`_) (`#238 <https://github.com/ros-controls/gazebo_ros2_control/issues/238>`_)
